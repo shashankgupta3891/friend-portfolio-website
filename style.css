@@ -1,0 +1,333 @@
+.module {
+    all: unset;
+  }
+
+a:hover{
+    text-decoration: none;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+   
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+
+.nav{
+    flex-grow: 1;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* background: linear-gradient(to bottom right, #4B79A1 0%, #283E51 100%); main color */
+    /* background: linear-gradient(to bottom right, #780206 , #061161); */
+    background: linear-gradient(to bottom right, #232526 , #414345);
+    /* background-color: linear-gradient(to bottom right, #4B79A1 0%, #283E51 100%); */
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.realBody{
+    flex-grow: 8;
+    display: flex;
+    max-width: 72vw;
+    background-color: white;
+    flex-direction: column;
+  
+}
+
+
+/* Nav elements  */
+
+.circle{
+    margin: 7%;
+    display: flex;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    border:10px solid white;
+    
+    /* background-image: url("https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=face-facial-hair-fine-looking-guy-614810.jpg&fm=jpg"); */
+    background-image: url("/Profile.jpeg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.274), 0 6px 20px 0 rgba(0, 0, 0, 0.493);
+}
+
+.menu{
+    display: flex;
+   
+    background-color: white;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    min-width: 80%;
+    border-radius: 20px;
+    text-align: center;
+ 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.274), 0 6px 20px 0 rgba(0, 0, 0, 0.493);
+    overflow: hidden;
+}
+
+.menu-items{
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    font-weight: bold;
+    
+}
+
+.menu-items:hover{
+    background-color: rgb(206, 151, 40);
+    color: white;
+}
+.menu-items:active{
+    background-color: brown;
+}
+
+.hire-me-button{
+    position: sticky;
+    top:10px;
+    background-color: rgb(206, 151, 40);
+    /* background: linear-gradient(to bottom right,#8A2387,#E94057,#F27121); */
+    /* background: linear-gradient(to bottom right,#159957,#155799); */
+    min-width: 80%;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.274), 0 6px 20px 0 rgba(0, 0, 0, 0.493);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border: white solid;
+    border-width: 1px;
+}
+
+.hire-me-button:hover{
+    background: white;
+    border-width: 1px;
+    color: rgb(206, 151, 40);
+    border: rgb(206, 151, 40) solid;
+}
+
+.socialIcons{
+    min-width: 80%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    background-color: white;
+   
+    justify-content: space-around;
+    border-radius: 50px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.274), 0 6px 20px 0 rgba(0, 0, 0, 0.493);
+    
+}
+
+.socialCircle{
+    width: 50px;
+    height:50px;
+}
+
+/* Real body element */
+
+.section{
+   
+    /* position: sticky;    
+    top: 0;
+    z-index: -1; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 30px;
+    /* background:  */
+    
+}
+
+
+.section-1{
+    display: flex;
+    
+    
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.192), 0 6px 20px 0 rgba(0, 0, 0, 0.219); */
+    
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgba(255, 255, 255, 0.89); */
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.247),
+        rgba(0,0,0, 100)
+      ),url("https://images.pexels.com/photos/163100/circuit-circuit-board-resistor-computer-163100.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    
+    background-size: cover;
+    
+
+}
+
+
+.container1-h1{
+    font-size: 50px;
+    color: black;
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.274), 0 6px 20px 0 rgba(0, 0, 0, 0.493);
+   
+}
+
+.container1-para{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 22px;
+    
+}
+
+
+.section-2{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0, 1),
+        rgba(0, 0, 0, 0.308),rgba(0,0,0, 1)
+      ),url("https://images.pexels.com/photos/1448561/pexels-photo-1448561.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+      background-size: cover;
+}
+
+.progress{
+    width: 100%;
+}
+
+.skill-container{
+    /* background-color: white; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: scroll;
+    justify-content: center;
+    
+}
+
+
+.skill-container::-webkit-scrollbar {
+    display: none;
+}
+  
+.skill-card{
+    display: flex;
+    margin: 15px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.863);
+    min-width: 220px;
+    width: 28%;
+    border-radius: 20px;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.skill-card-img{
+    
+    height: 20%;
+    flex-grow: 0;
+}
+
+.skill-card-content{
+    flex-grow: 2;
+}
+
+.section-3{
+    display: flex;
+    
+    
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.192), 0 6px 20px 0 rgba(0, 0, 0, 0.219); */
+    
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(
+        to bottom,
+        rgb(0, 0, 0),
+        rgba(0, 0, 0, 0.2)
+      ),url("https://images.pexels.com/photos/2136243/pexels-photo-2136243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    
+    background-size: cover;
+      
+}
+
+.section-3-container{
+    background-color: rgba(255, 255, 255, 0.856);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      flex-direction: column;
+    }
+    .nav{
+        position: static;
+        flex: none;
+    }
+
+        
+    .socialCircle{
+        width: 30px;
+        height:30px;
+    }
+
+
+    .realBody{
+        flex: none;
+
+        max-width: 100%;
+        max-height: 100%;
+        overflow: scroll;
+    }
+        
+    .container1-para{
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        display: flex;
+        font-size: 15px;
+        
+    }
+        
+    .section-3-container{
+        
+        background-color: rgba(255, 255, 255, 0.856);
+        border-radius: 20px;
+        padding: 15px;
+    }
+
+        
+    .section{
+        padding: 12px;
+    }
+
+    .container1-h1{
+        font-size: 30px; 
+        padding: 8px 20px;
+    }
+
+  }
+  
