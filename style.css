@@ -222,8 +222,10 @@ body{
     flex-wrap: wrap;
     overflow: scroll;
     justify-content: center;
-    
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+
 
 
 .skill-container::-webkit-scrollbar {
